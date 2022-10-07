@@ -1,5 +1,8 @@
 # KGCN
 
+
+Origin github: [KGCN-TF](https://github.com/hwwang55/KGCN) 
+
 This repository is the implementation of [KGCN](https://dl.acm.org/citation.cfm?id=3313417) ([arXiv](https://arxiv.org/abs/1904.12575)):
 
 > Knowledge Graph Convolutional Networks for Recommender Systems  

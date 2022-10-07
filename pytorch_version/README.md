@@ -1,5 +1,7 @@
 # KGCN-pytorch
 
+Origin github: [KGCN-pytorch](https://github.com/zzaebok/KGCN-pytorch) 
+
 This is the Pytorch implementation of [KGCN](https://dl.acm.org/citation.cfm?id=3313417) ([arXiv](https://arxiv.org/abs/1904.12575)):
 
 > Knowledge Graph Convolutional Networks for Recommender Systems  
