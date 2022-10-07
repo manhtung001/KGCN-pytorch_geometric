@@ -41,7 +41,7 @@ KGCN is **K**nowledge **G**raph **C**onvolutional **N**etworks for recommender s
   $ python preprocess.py -d movie
   ```
 - Music
-  - ```
+    ```
     $ cd src
     $ python preprocess.py -d music
     ```
