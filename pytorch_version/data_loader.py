@@ -45,6 +45,7 @@ class DataLoader:
         self.relation_encoder = LabelEncoder()
 
         self._encoding()
+
         
     def _encoding(self):
         '''
@@ -104,6 +105,10 @@ class DataLoader:
         Construct knowledge graph
         Knowledge graph is dictionary form
         'head': [(relation, tail), ...]
+        
+        ###
+        treat kg as a undirected graph
+        ###
         '''
         print('Construct knowledge graph ...', end=' ')
         kg = dict()
