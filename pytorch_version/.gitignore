@@ -101,3 +101,5 @@ data/music/*
 !data/music/item_index2entity_id.txt
 !data/music/kg.txt
 !data/music/user_artists.dat
+data/DianpingFood/user_item.dat
+data/DianpingFood/raw/ratings_final.txt

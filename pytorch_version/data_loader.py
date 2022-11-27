@@ -26,6 +26,27 @@ class DataLoader:
                 "rating_sep": "\t",
                 "threshold": 0.0,
             },
+            "ml100k": {
+                "item2id_path": "data/ML100K/item_index2entity_id.txt",
+                "kg_path": "data/ML100K/kg.txt",
+                "rating_path": "data/ML100K/user_item.dat",
+                "rating_sep": "\t",
+                "threshold": 0.0,
+            },
+            "bookcrossing": {
+                "item2id_path": "data/BookCrossing/item_index2entity_id.txt",
+                "kg_path": "data/BookCrossing/kg.txt",
+                "rating_path": "data/BookCrossing/user_item.dat",
+                "rating_sep": "\t",
+                "threshold": 0.0,
+            },
+            "ml1m": {
+                "item2id_path": "data/ML1M/item_index2entity_id.txt",
+                "kg_path": "data/ML1M/kg.txt",
+                "rating_path": "data/ML1M/user_item.dat",
+                "rating_sep": "\t",
+                "threshold": 4.0,
+            },
         }
         self.data = data
 
